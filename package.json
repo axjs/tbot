@@ -1,0 +1,34 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.15.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "telegraf": "^3.17.3"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axjs/tbot.git"
+  },
+  "author": "ax",
+  "license": "axl",
+  "bugs": {
+    "url": "https://github.com/axjs/tbot/issues"
+  },
+  "homepage": "https://github.com/axjs/tbot#readme"
+}
